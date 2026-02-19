@@ -1,0 +1,34 @@
+body{
+    font-family: sans-serif;
+    margin-top: 50px;
+    align-items: center;
+    text-align: center;
+}
+
+button{
+    padding: 10px 20px;
+    background-color: #3498DB;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: #2980B9;
+    transition: background-color 0.3s ease;
+    transform: translateY(-2px);
+}
+
+#mensagem{
+    padding: 20px;
+    background-color: #F0F0F0;
+    border: 1px solid #CCC;
+    margin-top: 20px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.oculto{
+    display: none;
+}
